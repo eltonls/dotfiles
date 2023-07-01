@@ -124,7 +124,6 @@ keys = [
     Key([mod], "t", lazy.spawn("thunar"), desc="Launch thunar"),
     Key([mod], "n", lazy.spawn("notion-app-enhanced"), desc="Launch Notion"),
     Key([mod], "s", lazy.spawn("spotify"), desc="Launch Spotify"),
-    Key([mod], "t", lazy.group["scratchpad"].dropdown_toggle("term")),
     Key([mod, shift], "t", lazy.group["scratchpad"].dropdown_toggle("btop-term")),
     # screenshots
     Key([], "Print", lazy.spawn("" + home + "/.local/bin/prtscreen"), desc="Print Screen"),
@@ -150,7 +149,6 @@ keys = [
         Key([], "a", lazy.spawn("aseprite"), desc="Launch Aseprite"),
         Key([], "d", lazy.spawn("discord"), desc="Launch Discord"),
         Key([], "m", lazy.spawn("gnome-mahjongg"), desc="Launch Gnome Mahjongg"),
-        Key([], "t", lazy.spawn("cat /home/dani/.token | xclip -selection clipboard"), desc="Copy GitHub token into the clipboard"),
         Key([], "e", lazy.spawn("/bin/bash /home/dani/dev/jku/system_software/SSW_Editor/editor_dev.sh file.txt"), desc="Copy GitHub token into the clipboard"),
     ], name="Launcher", ),
 ]

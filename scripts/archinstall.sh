@@ -43,9 +43,12 @@ sudo pacman -S htop --noconfirm # repository manager?
 sudo pacman -S neofetch --noconfirm # repository manager? 
 sudo pacman -S ghostwriter --noconfirm # repository manager? 
 sudo pacman -S obsidian --noconfirm # repository manager? 
-sudo pacman -S manuskript --noconfirm # repository manager? 
+sudo pacman -S manuskript --noconfirm # Writing 
 sudo pacman -S wireshark-qt --noconfirm # repository manager? 
 sudo pacman -S bitwarden-cli --noconfirm # Password manager OSS
+sudo pacman -S picom --noconfirm # Transparency 
+sudo pacman -S rofi --noconfirm # Launcher 
+sudo pacman -S dunst --noconfirm # Notification manager 
 
 # Install YAY
 git clone https://aur.archlinux.org/yay.git

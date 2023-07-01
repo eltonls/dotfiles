@@ -10,3 +10,4 @@ blueman-applet &
 mkfifo /tmp/vol-icon && ~/.config/qtile/scripts/vol_icon.sh &
 megasync &
 flameshot &
+discord &

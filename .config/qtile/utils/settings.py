@@ -1,6 +1,6 @@
 # Catppuccin colors
 colors = [
-    ["#DDB6F2", "#DDB6F2"],  #  0 mauve
+    ["#4F547C", "#4F547C"],  #  0 mauve
     ["#F5C2E7", "#F5C2E7"],  #  1 pink
     ["#E8A2AF", "#E8A2AF"],  #  2 maroon
     ["#F28FAD", "#F28FAD"],  #  3 red

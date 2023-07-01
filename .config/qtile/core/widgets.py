@@ -127,13 +127,13 @@ w_hk = widget.Image(
 
 # left icon
 w_sys_icon = widget.TextBox(
-    # text=' ',
+    text=' ',
     # text='',
     # text='ﮊ',
     # text='',
     # text='',
     # text='',
-    text='',
+    # text='',
     # text='',
     # text='',
     font='Font Awesome 6 Free Solid',

@@ -9,9 +9,11 @@ workspaces = [
     {"name": workspace_names[1], "key": "2", "matches": [Match(wm_class="firefox")], "lay": "columns"},
     {"name": workspace_names[2], "key": "3", "matches": [Match(wm_class="thunar")], "lay": "columns"},
     {"name": workspace_names[3], "key": "4", "matches": [Match(wm_class="neovide")], "lay": "bsp"},
-    {"name": workspace_names[4], "key": "5", "matches": [Match(wm_class="Spotify")], "lay": "bsp"},
-    {"name": workspace_names[5], "key": "6", "matches": [], "lay": "bsp"},
-    {"name": workspace_names[6], "key": "7", "matches": [Match(wm_class="cypress")], "lay": "bsp"},
+    {"name": workspace_names[4], "key": "5", "matches": [Match(wm_class="discord")], "lay": "bsp"},
+    {"name": workspace_names[4], "key": "5", "matches": [Match(wm_class="telegram-desktop")], "lay": "bsp"},
+    {"name": workspace_names[4], "key": "5", "matches": [Match(wm_class="obsidian")], "lay": "bsp"},
+    {"name": workspace_names[5], "key": "6", "matches": [Match(wm_class="anki")], "lay": "bsp"},
+    {"name": workspace_names[6], "key": "7", "matches": [Match(wm_class="deluge")], "lay": "bsp"},
 ]
 
 groups = [Group(i) for i in "123456789"]
