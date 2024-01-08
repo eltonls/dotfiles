@@ -1,8 +1,8 @@
 {
   "bar": "decorated",
-  "colorscheme": "catppuccin",
+  "colorscheme": "nord",
   "terminal": "kitty",
-  "wallpaper_main": "~/Pictures/wallpapers/wallhaven-g712o3.jpg",
+  "wallpaper_main": "~/Pictures/wallpapers/wall1.png",
   "wallpaper_sec": "~/.config/qtile/wallpapers/mini_black_hole.png",
   "with_battery": false,
   "with_wlan": false,

@@ -6,7 +6,7 @@ extra_bar = config["two_monitors"]
 
 widget_defaults = dict(
     font="JetBrainsMono Nerd Font",
-    fontsize=15,
+    fontsize=13,
     padding=2,
     background=color["bg"],
 )
@@ -26,9 +26,7 @@ def create_bar(extra_bar=False):
             separator(),
             *gen_current_layout(),
             *w_battery,
-            w_volume_icon,
             separator_sm(),
-            w_volume,
             separator(),
             *w_wlan,
             *gen_clock(),
