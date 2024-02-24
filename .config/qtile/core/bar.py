@@ -5,7 +5,7 @@ from utils import color, config
 extra_bar = config["two_monitors"]
 
 widget_defaults = dict(
-    font="JetBrainsMono Nerd Font",
+    font="Iosevka",
     fontsize=13,
     padding=2,
     background=color["bg"],

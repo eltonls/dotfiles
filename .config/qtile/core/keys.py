@@ -120,7 +120,7 @@ keys = [
     # Key([mod] , "i", lazy.layout.grow(), desc="Increase window size"),
     # Key([mod, shift] , "i", lazy.layout.shrink(), desc="Decrease window size"),
     # program launches
-    Key([mod], "f", lazy.spawn("waterfox"), desc="Launch waterfox"),
+    Key([mod], "f", lazy.spawn("firefox"), desc="Launch firefox"),
     Key([mod], "t", lazy.spawn("thunar"), desc="Launch thunar"),
     Key([mod], "n", lazy.spawn("obsidian"), desc="Launch obsidian"),
     Key([mod], "s", lazy.spawn("spotify"), desc="Launch Spotify"),

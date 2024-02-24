@@ -6,9 +6,11 @@ from utils.settings import workspace_names
 
 workspaces = [
     {"name": workspace_names[0], "key": "1", "matches": [], "lay": "bsp"},
-    {"name": workspace_names[1], "key": "2", "matches": [Match(wm_class="waterfox")], "lay": "columns"},
+    {"name": workspace_names[1], "key": "2", "matches": [Match(wm_class="firefox")], "lay": "columns"},
     {"name": workspace_names[2], "key": "3", "matches": [Match(wm_class="thunar")], "lay": "columns"},
     {"name": workspace_names[3], "key": "4", "matches": [Match(wm_class="neovide")], "lay": "bsp"},
+    {"name": workspace_names[3], "key": "4", "matches": [Match(wm_class="intellij-idea-ultimate-edition")], "lay": "bsp"},
+    {"name": workspace_names[3], "key": "4", "matches": [Match(wm_class="android-studio")], "lay": "bsp"},
     {"name": workspace_names[3], "key": "5", "matches": [Match(wm_class="godot-mono")], "lay": "floating"},
     {"name": workspace_names[4], "key": "6", "matches": [Match(wm_class="discord")], "lay": "bsp"},
     {"name": workspace_names[4], "key": "5", "matches": [Match(wm_class="telegram-desktop")], "lay": "bsp"},
