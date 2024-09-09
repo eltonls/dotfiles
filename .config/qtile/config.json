@@ -1,8 +1,8 @@
 {
   "bar": "decorated",
-  "colorscheme": "nord",
+  "colorscheme": "nordic",
   "terminal": "kitty",
-  "wallpaper_main": "~/Pictures/wallpapers/2.png",
+  "wallpaper_main": "~/Pictures/wallpapers/wallhaven-o571yl.png",
   "wallpaper_sec": "~/.config/qtile/wallpapers/mini_black_hole.png",
   "with_battery": false,
   "with_wlan": false,

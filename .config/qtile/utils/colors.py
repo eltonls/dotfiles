@@ -6,8 +6,8 @@ from utils.variables import config
 colorscheme = {
     'catppuccin': 'catppuccin.json',
     'tokyonight': 'tokyonight.json',
-    'nord': 'nord.json',
-}.get(config['colorscheme'], 'nord.json')
+    'nordic': 'nordic.json',
+}.get(config['colorscheme'], 'nordic.json')
 
 path = f'{dir.get()}/utils/colorscheme/{colorscheme}'
 

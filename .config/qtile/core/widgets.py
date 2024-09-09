@@ -26,11 +26,11 @@ group_box_settings = {
     'foreground': color['white'],
     'borderwidth': 2,  # change to 2 to add bottom border to active group
     'disable_drag': True,
-    'fontsize': 20,
+    'fontsize': 12,
     'highlight_method': 'line',
     'padding_x': 10,
-    'padding_y': 16,
-    'rounded': False,
+    'padding_y': 10,
+    'rounded': True,
 }
 
 # functions for callbacks
@@ -127,7 +127,8 @@ w_hk = widget.Image(
 
 # left icon
 w_sys_icon = widget.TextBox(
-    text='',
+    # text='',
+    text = '',
     # text='',
     # text='ﮊ',
     # text='',
@@ -136,8 +137,8 @@ w_sys_icon = widget.TextBox(
     # text='',
     # text='',
     # text='',
-    font='Font Awesome 6 Free Solid',
-    fontsize=22,
+    font='Iosevka',
+    fontsize=14,
     foreground='#000000',
     # foreground=color['maroon'],
     background=color['fg'],

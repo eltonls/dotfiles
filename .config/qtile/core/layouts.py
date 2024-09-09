@@ -5,7 +5,7 @@ from utils import color
 
 layout_theme = {
     "border_width": 2,
-    "margin": 4,
+    "margin": 3,
     "border_focus": color['fg'],
     "border_normal": color['bg'],
     "font": "JetBrainsMono Nerd Font",

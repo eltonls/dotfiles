@@ -1,3 +1,7 @@
 {
-    "midnight": true
+    "midnight": false,
+    "ClearVision": false,
+    "Dyslexia": false,
+    "Nordic": true,
+    "Slate": false
 }

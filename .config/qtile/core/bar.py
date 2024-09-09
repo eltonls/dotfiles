@@ -6,8 +6,8 @@ extra_bar = config["two_monitors"]
 
 widget_defaults = dict(
     font="Iosevka",
-    fontsize=13,
-    padding=2,
+    fontsize=8,
+    padding=0,
     background=color["bg"],
 )
 extension_defaults = widget_defaults.copy()
@@ -32,9 +32,10 @@ def create_bar(extra_bar=False):
             *gen_clock(),
             w_power,
         ],
-        30,
+        25,
         margin=[4, 6, 2, 6],
         border_width=[0, 0, 0, 0],
+        border_radius=[10, 10, 10, 10],
         border_color=color["fg"],
     )
 

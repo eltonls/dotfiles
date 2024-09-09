@@ -1,2 +1,3 @@
-2024/02/14-22:40:04.830 2889 Creating DB /home/quilli/.config/BetterDiscord Installer/Local Storage/leveldb since it was missing.
-2024/02/14-22:40:04.835 2889 Reusing MANIFEST /home/quilli/.config/BetterDiscord Installer/Local Storage/leveldb/MANIFEST-000001
+2024/09/04-22:10:53.156 4b5b Reusing MANIFEST /home/quilli/.config/BetterDiscord Installer/Local Storage/leveldb/MANIFEST-000001
+2024/09/04-22:10:53.156 4b5b Recovering log #3
+2024/09/04-22:10:53.156 4b5b Reusing old log /home/quilli/.config/BetterDiscord Installer/Local Storage/leveldb/000003.log 
